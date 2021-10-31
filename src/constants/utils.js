@@ -1,5 +1,6 @@
-export const linkHome = "/";
-export const linkAbout = "/about";
-export const linkProduct = "/product";
-export const linkContact = "/contact";
-export const linkBlog = "/blog";
+export const LINK_HOME = "/";
+export const LINK_ABOUT = "/about";
+export const LINK_PRODUCT = "/product";
+export const LINK_CONTACT = "/contact";
+export const LINK_BLOG = "/blog";
+export const LINK_ERROR = "/error";

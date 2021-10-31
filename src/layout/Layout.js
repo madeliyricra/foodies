@@ -1,7 +1,16 @@
 import React from "react";
 
-const Layout = () => {
-  return <div></div>;
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+const Layout = (props) => {
+  return (
+    <React.Fragment>
+      <Header />
+      {props.children}
+      <Footer />
+    </React.Fragment>
+  );
 };
 
 export default Layout;

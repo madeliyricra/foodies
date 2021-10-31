@@ -1,4 +1,4 @@
-export const categories = [
+export const CATEGORIES = [
   {
     id: 1,
     name: "frutas frescas",
@@ -26,7 +26,7 @@ export const categories = [
   },
 ];
 
-export const products = [
+export const PRODUCTS = [
   {
     id: 1,
     name: "platano",
