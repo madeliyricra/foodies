@@ -8,24 +8,72 @@ import {
 
 export const HEADER = [
   {
-    url: { LINK_HOME },
+    url: LINK_HOME,
     name: "Home",
   },
   {
-    url: { LINK_ABOUT },
+    url: LINK_ABOUT,
     name: "About",
   },
   {
-    url: { LINK_CONTACT },
+    url: LINK_CONTACT,
     name: "Contact",
   },
   {
-    url: { LINK_PRODUCT },
+    url: LINK_PRODUCT,
     name: "Product",
   },
   {
-    url: { LINK_BLOG },
+    url: LINK_BLOG,
     name: "Blog",
+  },
+];
+
+export const TEXTS_SLIDES = [
+  {
+    title: "Hasta un 50% de descuento",
+    subtitle: "Fresco y orgánico",
+    image: "https://i.ibb.co/tZ8PMY4/slide-1.webp",
+    nameButton: "Comprar ahora",
+    urlButton: "",
+  },
+  {
+    title: "Hasta un 30% de descuento",
+    subtitle: "Fresco y orgánico",
+    image: "https://i.ibb.co/jDXBZnx/slide-2.webp",
+    nameButton: "Comprar ahora",
+    urlButton: "",
+  },
+  {
+    title: "Hasta un 40% de descuento",
+    subtitle: "Fresco y orgánico",
+    image: "https://i.ibb.co/F3knbyc/slide-3.webp",
+    nameButton: "Comprar ahora",
+    urlButton: "",
+  },
+];
+
+export const TEXTS_BANNERS = [
+  {
+    title: "Hasta un 50% de descuento",
+    subtitle: "Fresco y orgánico",
+    image: "https://i.ibb.co/tZ8PMY4/slide-1.webp",
+    nameButton: "Comprar ahora",
+    urlButton: "",
+  },
+  {
+    title: "Hasta un 30% de descuento",
+    subtitle: "Fresco y orgánico",
+    image: "https://i.ibb.co/jDXBZnx/slide-2.webp",
+    nameButton: "Comprar ahora",
+    urlButton: "",
+  },
+  {
+    title: "Hasta un 40% de descuento",
+    subtitle: "Fresco y orgánico",
+    image: "https://i.ibb.co/F3knbyc/slide-3.webp",
+    nameButton: "Comprar ahora",
+    urlButton: "",
   },
 ];
 

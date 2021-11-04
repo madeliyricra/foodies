@@ -5,7 +5,7 @@ import { HEADER, SOCIAL } from "../../constants/global";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer__container">
+      <div className="footer-container">
         <div className="footer__item">
           <h1 className="title">Groco</h1>
           <p>Groco es un sitito web</p>
@@ -15,9 +15,9 @@ const Footer = () => {
           <ul className="link">
             {HEADER.map((item, index) => {
               return (
-                <li>
-                  <Link key={index} to={item.url}>
-                    <i class="fas fa-arrow-right"></i>
+                <li key={index}>
+                  <Link to={item.url}>
+                    <i className="fas fa-arrow-right"></i>
                     {item.name}
                   </Link>
                 </li>
@@ -30,9 +30,9 @@ const Footer = () => {
           <ul className="link">
             {SOCIAL.map((item, index) => {
               return (
-                <li>
-                  <Link key={index} to={item.url}>
-                    <i class={item.icon}></i>
+                <li key={index}>
+                  <Link to={item.url}>
+                    <i className={item.icon}></i>
                     {item.name}
                   </Link>
                 </li>

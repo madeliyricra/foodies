@@ -184,3 +184,12 @@ export const PRODUCTS = [
     },
   },
 ];
+
+export const SHOPPING_CART = [
+  {
+    name: "",
+    image: "",
+    stok: "",
+    price: "",
+  },
+];

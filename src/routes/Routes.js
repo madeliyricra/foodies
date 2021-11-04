@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import {
   LINK_BLOG,
   LINK_HOME,
@@ -28,7 +28,7 @@ const Routes = () => {
           <Route exact path={LINK_CONTACT} component={Contact} />
           <Route exact path={LINK_PRODUCT} component={Product} />
           <Route path={LINK_ERROR} component={Error404} />
-          {/* <Redirect from="*" to={LINK_ERROR} /> */}
+          <Redirect from="*" to={LINK_ERROR} />
         </Switch>
       </Layout>
     </BrowserRouter>

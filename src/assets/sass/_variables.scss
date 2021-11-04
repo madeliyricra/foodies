@@ -1,2 +1,15 @@
-* {
+$color-principal: #bac34e;
+$color-secundary: #666;
+$color-button-hover: #dee77a;
+$color-text: #222;
+$color-light: #fff;
+$color-background: #f3f3f3;
+$border: 0.1rem solid rgba(0, 0, 0, 0.1);
+$box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+
+//permite crear código para ser reutilizado en todo sass
+@mixin grid($val) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+  gap: 1.5rem;
 }

@@ -2,5 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-decoration: capitalize; //mayusculas en cada palabra
+  transition: 0.2s linear;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 1rem 9%;
+}
+
+.main {
+  max-width: 1440px;
+  min-width: 320px;
+  min-height: 10rem;
+  margin: auto;
+  margin-top: 80px;
 }
