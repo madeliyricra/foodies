@@ -86,10 +86,11 @@
       position: absolute;
       top: 115%;
       right: -105%;
+      // right: 0;
       background-color: $color-light;
       border-radius: 0.4rem;
       box-shadow: $box-shadow;
-      width: 30rem;
+      width: 25rem;
       min-width: 320px;
       padding: 1rem;
       &.active {
@@ -127,7 +128,7 @@
         }
       }
       img {
-        max-width: 5rem;
+        max-width: 4rem;
         height: 4.5rem;
         object-fit: contain;
       }
@@ -145,8 +146,9 @@
         text-align: center;
         margin-top: 1rem;
         .btn {
+          display: block;
           text-align: center;
-          width: 90%;
+          width: 100%;
           padding: 0.6rem 1.5rem;
           border-radius: 0.5rem;
           font-size: 0.9rem;
@@ -163,8 +165,7 @@
     .login-form {
       position: absolute;
       top: 115%;
-      right: 0;
-      // right: -105%;
+      right: -105%;
       background-color: $color-light;
       border: 0.5rem;
       box-shadow: $box-shadow;
@@ -173,7 +174,7 @@
       padding: 1rem;
       &.active {
         right: 2rem;
-        transition: 0.8s linear;
+        transition: 1s linear;
       }
       h3 {
         text-transform: uppercase;
@@ -197,6 +198,7 @@
         input {
           width: auto;
           margin-right: 0.5rem;
+          cursor: pointer;
         }
         label {
           font-size: 0.85rem;

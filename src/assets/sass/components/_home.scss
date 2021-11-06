@@ -1,2 +1,19 @@
-* {
+.slides {
+  width: 100%;
+  .slides-container {
+    .slide__item {
+      background-color: aquamarine;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      //   display: none;
+      &.active {
+        display: flex;
+      }
+      .content {
+        flex: 1 1 40rem;
+      }
+    }
+  }
 }
